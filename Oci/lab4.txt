@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.vertical-menu {
+    width: 200px;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<h1>Evidenta carti</h1>
+
+<div class="vertical-menu">
+  <a href="" class="active">MENU</a>
+  <a href="http://localhost/afisare.php">Afisare</a>
+  <a href="http://localhost/inserare.html">Inserare</a>
+  <a href="http://localhost/stergere.html">Stergere</a>
+  <a href="http://localhost/imprumut.htm">Imprumut</a>
+</div>
+
+</body>
+</html>
